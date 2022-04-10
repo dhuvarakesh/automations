@@ -1,0 +1,11 @@
+package test_layer;
+
+public class Test_class {
+	sendKeys("massgokul202@gmail.com");
+	click();
+	sendKeys("gokul#07"); 
+	click();
+	click();
+	driver.close();
+
+}

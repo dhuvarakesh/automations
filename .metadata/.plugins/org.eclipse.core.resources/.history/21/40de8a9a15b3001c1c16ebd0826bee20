@@ -1,0 +1,13 @@
+package page_layer;
+
+import org.openqa.selenium.By;
+
+public class login_claass {
+	 driver.findElement(By.id("ap_email"));
+	 driver.findElement(By.id("continue"));
+	 driver.findElement(By.id("ap_password"))
+	 driver.findElement(By.id("signInSubmit"));
+	 driver.findElement(By.id("continue"));
+
+
+}

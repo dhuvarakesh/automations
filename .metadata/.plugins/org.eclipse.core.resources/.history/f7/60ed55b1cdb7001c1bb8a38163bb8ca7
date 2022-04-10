@@ -1,0 +1,17 @@
+package test_layer;
+import org.testng.annotations.Test;
+import org.openqa.selenium.support.PageFactory;
+import base_layer.Url_Page;
+import page_layer.login_claass;
+public class Test_class extends Base_Page {
+
+ @Test
+ public void init() throws Exception {
+
+login_claass loginpage =PageFactory.initElements(driver,login_claass.class);
+
+ loginpage.setEmail("abc@gmail.com");
+ loginpage.setPassword("abcdef");
+ loginpage.clickLoginButton();
+ }
+}
